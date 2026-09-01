@@ -20,7 +20,6 @@ namespace Booking.Repository.Repo
         {
             _context = Context;
         }
-
         public async Task BuyAsync(OrderDto order )
         {
             var Buy = new Order
